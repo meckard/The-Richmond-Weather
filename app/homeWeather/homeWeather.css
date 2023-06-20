@@ -1,0 +1,55 @@
+:root {
+    --dark-blue: #163D57;
+    --text-green: #1D5962;
+    --block-bg: #E9F7F9;
+}
+
+
+
+.weatherWidget {
+    display: flex;
+    background-color: var(--block-bg);
+    flex-direction: column;
+    width: 50%;
+    opacity: 0.9;
+    z-index: 5;
+}
+
+.weatherWidget li {
+    list-style-type: none;
+}
+
+.weatherInfo {
+   margin: auto 0;
+}
+
+.temp {
+    padding: 10px;
+    font-size: 3rem;
+    font-weight: bold;
+}
+
+.condition {
+    padding: 10px;
+    margin: 0 0 120px 0;
+    font-weight: bold;
+}
+
+.updates {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.button {
+    background-color: var(--block-bg);
+    color: var(--text-green);
+    border: 3px solid var(--text-green);
+    padding: 5px;
+    margin: 10px;
+    border-radius: 5px;
+}
+
+.current {
+    padding: 10px;
+}

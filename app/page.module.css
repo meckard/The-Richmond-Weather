@@ -1,0 +1,71 @@
+
+
+.home {
+  height: 100%;
+  min-height: 100vh;
+  background-color: var(--dark-blue);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: var(--text-green);
+}
+
+.home h1 {
+  background-color: var(--block-bg);
+  text-decoration: underline;
+  padding: 10px
+}
+
+.building {
+  height: 50%;
+  width: 50%;
+  background-color: rgb(190, 93, 36);
+  position: absolute;
+  left: 0;
+  bottom:0;
+  display: grid;
+  grid-template: 'a a' auto;
+  box-shadow: 3px 3px 3px black;
+}
+
+.roof {
+  width: 50%;
+  height: 20%;
+  background: rgb(186, 78, 16);
+  transform: perspective(10px) rotateX(1deg);
+  position: absolute;
+  left:0;
+  top: 29%;
+  border: 2px solid black;
+  z-index: 2;
+}
+
+.tower {
+  background: rgb(186, 78, 16);
+  width: 15%;
+  height: 40%;
+  position: absolute;
+  left: 0;
+  top: 10%;
+  z-index: 3;
+  border: 2px solid black;
+  border-radius: 40% 40% 0 0;
+}
+
+.clockback {
+  border-top: 2px solid black;
+  height: 50%;
+  width: 100%;
+  position: absolute;
+  bottom: 0;
+  box-shadow: 2px 2px 2px black;
+}
+
+.clock {
+  background-color: rgba(255, 255, 255, 0.853);
+  height: 100%;
+  width: 100%;
+  border-radius: 50%;
+}
+
