@@ -2,9 +2,8 @@
     --dark-blue: #163D57;
     --text-green: #1D5962;
     --block-bg: #E9F7F9;
+    --building-orange: rgb(190, 93, 36);
 }
-
-
 
 .weatherWidget {
     display: flex;
@@ -13,6 +12,8 @@
     width: 50%;
     opacity: 0.9;
     z-index: 5;
+    border-radius: 20px;
+    border: 2px solid var(--text-green)
 }
 
 .weatherWidget li {
